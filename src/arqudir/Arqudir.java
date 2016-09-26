@@ -35,7 +35,7 @@ public class Arqudir {
             System.out.println(punto5[i]);
         }
         System.out.println("Ruta del primer directorio : "+arquivosdir.getPath());
-        System.out.println("Datos primer archivo : "+"\n  nombre : "+products1.getName()+"\n ruta : "+products1.getPath()+"\n escritura :"+products1.);
+        System.out.println("Datos primer archivo : "+"\n  nombre : "+products1.getName()+"\n ruta : "+products1.getPath()+"\n escritura :"+products1.canWrite()+"\n lectura :"+products1.canRead());
                 
         
         
